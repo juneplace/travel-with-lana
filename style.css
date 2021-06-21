@@ -4,7 +4,6 @@ body {
 }
 header {
     height: 100vh;
-
 }
 .landing-page {
     background-image: url(images/landing-page.jpg);
@@ -102,5 +101,50 @@ svg {
 }
 .social-bar {
     position:static;
-    transform: translate(-5%, -315%);
+    transform: translate(-5%, -260%);
+}
+.services-showing, .who-are, .latest-posts, .reviews {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.service-showing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-show {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 367px;
+    height: 231px;
+}
+.service-show h3 {
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+#plan-it {
+    background-image: url(images/plan-it.png);
+}
+#book-it {
+    background-image: url(images/book-it.png);
+}
+#enjoy-it {
+    background-image: url(images/enjoy-it.png);
+}
+.profile-text {
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    margin-left: 25px;
+}
+.who-are1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.working-btn {
+    margin: 30px;
+    width: 90%;
 }
