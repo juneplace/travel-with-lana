@@ -1,0 +1,71 @@
+
+
+.page-title {
+    font-size: 72px;
+    font-variant: small-caps;
+    text-align: center;
+}
+.serv-img {
+    width: 619px;
+    height: 397px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serv-img h2 {
+    font-family: 'Bodoni MT';
+    font-size: 58px;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+}
+.serv-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+#plan-it1 {
+    background-image: url(images/plan-it1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 1;
+}
+#book-it1 {
+    background-image: url(images/book-it1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 1;
+}
+#enjoy-it1 {
+    background-image: url(images/enjoy-it1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    grid-column: 1;
+    grid-row: 1;
+}
+.service {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+#plan-it2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 10px;
+}
+#book-it2 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+#enjoy-it2{
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 10px;
+}
