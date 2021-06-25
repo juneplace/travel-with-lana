@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="contact.css">
     <script src="app.js" defer></script>
-    <script src="review.app" defer></script>
+    <script src="review.js" defer></script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -140,20 +140,17 @@
             </div>
         </div>
 
-        <div class="reviews">
+        <div class="reviews" >
             <h2>See what other customers say</h2>
-            <div class="review">
-                <img class="pic" src="images/profile-pic1.jpg">
-                <h4 class="name">Name of the reviewer</h4>
-                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Reprehenderit at nihil velit nobis, recusandae quam eaque 
-                    quaerat praesentium molestiae nesciunt minus, iste minima 
-                    expedita, magni sunt vel id rerum dolores.</p>
+            <div class="review" id="bg-color">
+                <img class="pic" src="" id="person-img" >
+                <h4 class="name" id="author"></h4>
+                <p class="info" id="info"></p>
                 <div class="buttons">
-                    <button class="prev"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <button class="prev-btn"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
                       </svg></button>
-                      <button class="next"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <button class="next-btn"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                       </svg></button>
                 </div>
