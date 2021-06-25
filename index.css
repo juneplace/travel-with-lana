@@ -318,9 +318,9 @@ h2 {
         list-style: none;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;  
+        flex-wrap: nowrap;  
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
         height: 60px;
         position: fixed;
         background-color: #fff;
@@ -330,6 +330,9 @@ h2 {
         top: 0;
         left: 0;
         right: 0;
+    }
+    .nav ul {
+        align-items: center;
     }
     .navbar a {
         font-size: 20px;
@@ -350,6 +353,7 @@ h2 {
         height: 30px;
     }
     .social-bar {
+        display: unset;
         position: absolute;
         top: 60px;
         left: 10px;
