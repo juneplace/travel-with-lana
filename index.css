@@ -1,57 +1,13 @@
-body {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-header {
-    height: 100vh;
-}
-.landing-page {
-    background-image: url(images/landing-page.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: 60px;
-    margin-bottom: 0;
-}
-
 h1, h2 {
     font-family: 'Bodoni MT';
 }
 .nav {
     position: relative;
 }
-.navbar {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;  
-    justify-content: space-evenly;
-    align-items: center;
-    height: 60px;
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.navbar ul {
-    margin-left: 100px;
-    margin-right: 100px;
-}
 .navbar a {
     text-decoration: none;
     color: #333;
     font-family: 'Segoe UI';
-    font-size: 20px;
     font-variant: small-caps;
     font-weight: lighter;
 }
@@ -67,29 +23,21 @@ h1, h2 {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    height: 300px;
-    width: 600px;
 }
 .title1 {
     font-variant: small-caps;
-    font-size: 110px;
     text-align: center;
-    letter-spacing: 8px;
     font-weight: 100;
 }
 .sub-title {
     text-align: center;
-    font-size: 43px;
     font-family: 'Segoe UI';
     font-weight: 100;
 }
 h2 {
     font-size: 43px;
     font-weight: 100;
-}
-svg {
-    width: 30px;
-    height: 30px;
+    margin-top: 70px;
 }
 .social-list {
     list-style: none;
@@ -100,25 +48,15 @@ svg {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.social-bar {
-    position:static;
-    transform: translate(-5%, -260%);
-}
 .services-showing, .who-are, .latest-posts, .reviews {
     margin-top: 70px;
     margin-bottom: 70px;
-}
-.service-showing {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .service-show {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 367px;
-    height: 231px;
+    margin-top: 30px;
 }
 .service-show h3 {
     font-family: 'Segoe UI';
@@ -128,34 +66,34 @@ svg {
 }
 #plan-it {
     background-image: url(images/plan-it.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #book-it {
     background-image: url(images/book-it.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #enjoy-it {
     background-image: url(images/enjoy-it.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .profile-text {
     font-family: 'Segoe UI';
     font-size: 19px;
     margin-left: 25px;
 }
-.who-are1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .name{
     font-weight: 100;
 }
 .post img {
     background-position: center;
-    background-size:initial;
+    background-size: initial;
     background-repeat: no-repeat;
-}
-.posts {
-    display: grid;
-    grid-template-columns: auto auto auto;
 }
 .post {
     grid-column: auto;
@@ -191,10 +129,6 @@ svg {
     width: 150px;
     border-radius: 50%;
 }
-svg {
-    width: 30px;
-    height: 30px;
-}
 .prev, .next {
     background: transparent;
     border: transparent;
@@ -206,4 +140,301 @@ svg {
     text-align: center;
     font-variant: small-caps;
     margin-top: 50px;
+}
+
+@media (min-width: 300px){
+    body {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    header {
+        height: 50vh;
+    }
+    .navbar {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar li {
+        margin: 30px;
+    }
+    .landing-page {
+        background-image: url(images/landing-page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+    .landing-text {
+        height: 50%;
+        width: 80%;
+    }
+    .title1 {
+        font-size: 70px;
+        letter-spacing: 8px;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+    .service-showing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .service-show {
+        width: 100%;
+    }
+    .who-are1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .sidebar-toggle, .close-btn {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .sidebar-toggle {
+        position: fixed;
+        top: 2rem;
+        right: 3rem;
+        font-size: 2rem;
+        transition: all 0.3s linear;
+        cursor: pointer;
+      }
+      .sidebar-toggle:hover {
+        animation: bounce 2s ease-in-out infinite;
+      }
+    @keyframes bounce {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .close-btn {
+        font-size: 1.75rem;
+        transition: all 0.3s linear;
+        cursor: pointer;
+      }
+      .close-btn:hover {
+        transform: rotate(360deg);
+      }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s linear;
+      }
+
+      .social-bar{
+          display: none;
+      }
+      .nav-big {
+        display: none;
+      }
+      .social-baro svg {
+        width: 20px;
+        height: 20px;
+    }
+    .social-baro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-list0{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .social-list0 li {
+        margin: 30px; 
+    }
+
+}
+@media (min-width: 768px){
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    header {
+        height: 100vh;
+    }
+    .landing-page {
+        background-image: url(images/landing-page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    .navbar {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60px;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .navbar a {
+        font-size: 20px;
+    }
+    .landing-text {
+        height: 250px;
+        width: 700px;
+    }
+    .title1 {
+        font-size: 110px;
+        letter-spacing: 8px;
+    }
+    .sub-title {
+        font-size: 43px;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+    .social-bar {
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+    .service-showing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .service-show {
+        width: 367px;
+        height: 231px;
+    }
+    .who-are1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .sidebar-toggle, .close-btn {
+        display: none;
+    }
+    .social-baro{
+        display: none;
+    }
+    .nav-big {
+        display:block;
+      }
+}
+@media (min-width: 1024px){
+    body {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    header {
+        height: 100vh;
+    }
+    .landing-page {
+        background-image: url(images/landing-page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    .social-bar {
+        position: absolute;
+        top: 60px;
+        left: 22.5px;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (min-width: 1440px){
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    header {
+        height: 100vh;
+    }
+    .landing-page {
+        background-image: url(images/landing-page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    .landing-text {
+        height: 300px;
+        width: 600px;
+    }
+    .social-bar {
+        position: absolute;
+        top: 60px;
+        left: 35px;
+    }
 }
