@@ -7,11 +7,5 @@ link.addEventListener('mouseover', function() {
     linkDiv.classList.add('moving-lines')
 });
 link.addEventListener('mouseout', function() {
-    linkDiv.classList.remove('moving-lines')
+    linkDiv.classList.remove('moving-lines');
 });
-const lines = anime({
-    targets: '.working-div-link',
-    direction: 'normal',
-    easing: 'spring(1, 80, 10, 0)'
-
-})

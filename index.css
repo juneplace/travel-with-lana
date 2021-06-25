@@ -56,10 +56,10 @@ h1, h2 {
     font-weight: lighter;
 }
 .navbar a:hover {
-    color: gold;
+    color: teal;
 }
 .navbar a:active {
-    color: gold;
+    color: teal;
 }
 .landing-text {
     display: flex;
