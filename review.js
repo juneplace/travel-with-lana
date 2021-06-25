@@ -4,35 +4,35 @@ const reviews = [
     img: 'images/profile-pic1.jpg',
     author: 'Anna Johnson',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Reprehenderit at nihil velit nobis, recusandae quam eaque quaerat praesentium molestiae nesciunt minus, iste minima expedita, magni sunt vel id rerum dolores.',
-    color: '#FFAAD2'
+    color: '#3399CC'
 },
 {
     id: 2,
     img: 'images/profile-pic2.jpg',
     author: 'Karen Molto',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Reprehenderit at nihil velit nobis, recusandae quam eaque quaerat praesentium molestiae nesciunt minus, iste minima, magni sunt vel id rerum dolores.',
-    color: '#C8ABE8'
+    color: '#67B8DE'
 },
 {
     id: 3,
     img: 'images/profile-pic3.jpg',
     author: 'Marc Tomson',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at nihil velit nobis, recusandae quam eaque quaerat praesentium molestiae nesciunt minus, iste minima expedita, magni sunt vel id rerum dolores.',
-    color: '#86ABFF'
+    color: '#91C9E8'
 },
 {
     id: 4,
     img: 'images/profile-pic4.jpg',
     author: 'Felix Black',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at nihil velit nobis, recusandae quam eaque quaerat praesentium molestiae nesciunt minus, iste minima expedita, magni sunt vel id rerum dolores.',
-    color: '#86E8E0'
+    color: '#B4DCED'
 },
 {
     id: 5,
     img: 'images/profile-pic5.jpg',
     author: 'Victoria Roth',
     info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at nihil velit nobis, recusandae quam eaque quaerat praesentium molestiae nesciunt minus, iste minima expedita, magni sunt vel id rerum dolores.',
-    color: '#ACFFB3'
+    color: '#CDEDFF'
 }
 ];
 const img = document.getElementById('person-img');
