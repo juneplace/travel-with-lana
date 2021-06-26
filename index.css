@@ -1,3 +1,6 @@
+* {
+    font-weight: 100;
+}
 h1, h2 {
     font-family: 'Bodoni MT';
 }
@@ -35,7 +38,6 @@ h1, h2 {
     font-weight: 100;
 }
 h2 {
-    font-size: 43px;
     font-weight: 100;
     margin-top: 70px;
 }
@@ -60,7 +62,6 @@ h2 {
 }
 .service-show h3 {
     font-family: 'Segoe UI';
-    font-size: 50px;
     font-weight: 100;
     font-variant: small-caps;
 }
@@ -114,12 +115,7 @@ h2 {
     align-items: center;
     box-shadow: 5px 5px 5px gray;
     border-radius: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
     text-align: center;
     font-weight: 100;
 }
@@ -141,7 +137,7 @@ h2 {
     margin-top: 50px;
 }
 
-@media (min-width: 300px){
+@media (min-width: 200px){
     body {
         margin-left: 25px;
         margin-right: 25px;
@@ -157,8 +153,8 @@ h2 {
         align-items: center;
     }
     .navbar li {
-        margin: 30px;
-        font-size: 30px;
+        margin: 20px;
+        font-size: 20px;
     }
     .landing-page {
         background-image: url(images/landing-page.jpg);
@@ -173,16 +169,20 @@ h2 {
         margin-top: 25px;
         margin-bottom: 0;
     }
+    h2 {
+        font-size: 35px;
+        text-align: center;
+    }
     .landing-text {
         height: 50%;
         width: 80%;
     }
     .title1 {
-        font-size: 70px;
+        font-size: 2.5rem;
         letter-spacing: 8px;
     }
     .sub-title {
-        font-size: 20px;
+        font-size: 1rem;
     }
     .service-showing {
         display: flex;
@@ -192,6 +192,9 @@ h2 {
     }
     .service-show {
         width: 100%;
+    }
+    .service-show h3 {
+        font-size: 40px;
     }
     .who-are1 {
         display: flex;
@@ -205,6 +208,9 @@ h2 {
     .posts {
         display: grid;
         grid-template-columns: auto;
+    }
+    .post img {
+        width: 90%;
     }
     .sidebar-toggle, .close-btn {
         background-color: transparent;
@@ -273,6 +279,9 @@ h2 {
         width: 20px;
         height: 20px;
     }
+    .service-show h3 {
+        font-size: 40px;
+    }
     .social-baro {
         display: flex;
         flex-direction: row;
@@ -287,7 +296,26 @@ h2 {
         list-style: none;
     }
     .social-list0 li {
-        margin: 30px; 
+        margin: 15px; 
+    }
+    .nav0 ul {
+        padding: 10px;
+        margin: 0;
+    }
+    .social-baro ul {
+        padding: 0;
+    }
+    .review {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .prev-btn, .next-btn{
+        width: 30px;
+        height: 30px;
+    }
+    .buttons {
+        width: 100%;
+        height: 100%;
     }
 
 }
@@ -312,6 +340,10 @@ h2 {
         height: 100vh;
         margin-top: 60px;
         margin-bottom: 0;
+    }
+    h2 {
+        font-size: 43px;
+        text-align: left;
     }
     .navbar {
         list-style: none;
@@ -367,6 +399,9 @@ h2 {
         width: 367px;
         height: 231px;
     }
+    .service-show h3 {
+        font-size: 50px;
+    }
     .who-are1 {
         display: flex;
         flex-direction: row;
@@ -392,6 +427,21 @@ h2 {
       .sidebar{
           display: none;
       }
+    .review {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .prev-btn, .next-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .buttons {
+        width: 100%;
+        height: 100%;
+    }
 }
 @media (min-width: 1024px){
     body {

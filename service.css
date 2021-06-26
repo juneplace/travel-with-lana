@@ -1,5 +1,4 @@
 .page-title {
-    font-size: 72px;
     font-variant: small-caps;
     text-align: center;
 }
@@ -60,7 +59,7 @@
     margin-left: 10px;
 }
 
-@media (min-width: 300px){
+@media (min-width: 250px){
     .service {
         align-items: center;
         margin-top: 50px;
@@ -72,9 +71,16 @@
     .serv-text{
         text-align: center;
     }
-    
+    .serv-img h2 {
+        font-size: 35px;
+        margin: 20px;
+        text-align: center;
+    }
+    .page-title {
+        font-size: 50px;
+    }
 }
-@media (min-width: 768px){
+@media (min-width: 830px){
 
     .serv-img h2 {
         font-size: 40px;
@@ -87,7 +93,7 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: 100%;
         align-items: center;
-        margin-top: 50px;
+        margin: 70px;
     }
     #plan-it2{
         text-align: left;
@@ -98,8 +104,11 @@
     #enjoy-it2 {
         text-align: left;
     }
+    .page-title {
+        font-size: 72px;
+    }
 }
-@media (min-width: 1024px){
+@media (min-width: 1050px){
 .serv-img h2 {
     font-size: 58px;
 }

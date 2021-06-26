@@ -55,6 +55,8 @@ outline: none;
     background-color: rgba(255, 255, 255, 0.4);
     color: white;
     padding: 10px;
+    transition: all .5s ease;
+
 }
 #submit:hover {
     background-color: rgba(255, 255, 255, 1);
@@ -73,8 +75,8 @@ outline: none;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
         border-radius: 30px;
     }
 }
