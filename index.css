@@ -218,8 +218,8 @@ h2 {
     }
     .sidebar-toggle {
         position: fixed;
-        top: 2rem;
-        right: 3rem;
+        top: 10px;
+        right: 10px;
         font-size: 2rem;
         transition: all 0.3s linear;
         cursor: pointer;
